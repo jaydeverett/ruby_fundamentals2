@@ -11,3 +11,6 @@ second = wrap_text(first, "===")
 third = wrap_text(second, "---")
 
 puts third
+
+
+puts wrap_text(wrap_text(wrap_text("hello", "###"), "==="), "---")
